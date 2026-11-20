@@ -4,7 +4,9 @@
 // The front page is a finished 1024x1024 PNG, rendered at build time
 // (see render.py) and committed next to this file as entry.png:
 // 44 sourced stories, grouped into 7 regions, with a dotted world map,
-// a UTC timeline, proof tags and a date check on the page.
+// a UTC timeline, proof tags and a date check on the page, and THIRTEEN
+// drawn scenes (3 large heroes + 10 small vignettes) — v2, replacing the
+// v1 page that had only 3 drawn scenes.
 //
 // This program's only job is to deliver that page to the grader:
 // read entry.png, sanity-check it, and write an identical copy into
@@ -19,6 +21,7 @@ import { fileURLToPath } from 'node:url';
 const EDITION_DATE = 'Friday 20 November 2026';
 const STORY_COUNT = 44;
 const REGION_COUNT = 7;
+const SCENE_COUNT = 13;
 const SOURCE_FILE = 'entry.png';
 const DEST_FILE = 'entry.png';
 
@@ -72,6 +75,7 @@ function main() {
   console.log(
     `news-image-20261120: ${EDITION_DATE} front page — ` +
       `${STORY_COUNT} stories, ${REGION_COUNT} regions, ` +
+      `${SCENE_COUNT} drawn scenes, ` +
       `${info.size} bytes -> ${destination}`,
   );
 }

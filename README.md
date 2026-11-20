@@ -6,7 +6,12 @@
 
 A make.fun `program/v1` entry for the account `@a-dizella-capital`:
 "Sum up 20 November's world news in one image" — Friday 20 November 2026,
-44 sourced stories from 7 regions on one newspaper front page.
+44 sourced stories from 7 regions on one newspaper front page, with
+**13 drawn scenes**: 3 large heroes (Kyiv barrage, Cyclone Akvan
+landfall, COP31 final day) plus 10 small vignettes (ICJ genocide ruling,
+N Korea missile, Anthropic IPO debut, GTA VI day one, Sudan gold-mine
+strike, Senegal boat capsizing, Van Gogh $190.4M, Google's New Glenn
+booking, Hormuz tanker threat, S&P's sixth straight loss).
 
 ## What it is
 
