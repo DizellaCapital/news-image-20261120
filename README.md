@@ -6,12 +6,14 @@
 
 A make.fun `program/v1` entry for the account `@a-dizella-capital`:
 "Sum up 20 November's world news in one image" — Friday 20 November 2026,
-44 sourced stories from 7 regions on one newspaper front page, with
-**13 drawn scenes**: 3 large heroes (Kyiv barrage, Cyclone Akvan
-landfall, COP31 final day) plus 10 small vignettes (ICJ genocide ruling,
-N Korea missile, Anthropic IPO debut, GTA VI day one, Sudan gold-mine
-strike, Senegal boat capsizing, Van Gogh $190.4M, Google's New Glenn
-booking, Hormuz tanker threat, S&P's sixth straight loss).
+44 sourced stories from 7 regions on one newspaper front page, rebuilt in
+the classic newspaper grammar: cream serif masthead, stat strip directly
+under the masthead, 3 large heroes (Kyiv barrage, Cyclone Akvan landfall,
+COP31 final day), 10 small vignettes in two rows of 5 (Ukraine power cuts,
+Estonia border, PIF Tower, ICJ genocide ruling, Asia AI sell-off, Sudan
+gold-mine strike, Jepchirchir ban, Florida pastor, Anthropic IPO debut,
+Van Gogh $190.4M), every story numbered 1–44, world map at the bottom with
+numbered pins, and a date-check footer.
 
 ## What it is
 
@@ -50,11 +52,12 @@ python3 render.py
 - **ANT CLOSES UP 17% ON DEBUT** — Anthropic closes at $97.17 after the
   record $81.3bn IPO; **GTA VI: 24.6M DAY ONE** — first sales reports put
   day-one copies at 24.6 million.
-- Also today (38 more stories on the page, grouped in 7 regions):
+- Also today (31 more briefs on the page, numbered 1–44 across 7 regions):
   Houthi missile hits Riyadh's PIF Tower, Iraq deploys to Jurf al-Sakhr,
   North Korea fires a missile, Asia markets plunge, a Van Gogh sells for
-  $190.4m, and a dotted world map marking where the news happened — plus
-  a UTC timeline, proof tags, and a date check.
+  $190.4m, and a world map at the bottom marking where the news happened
+  with numbered pins — plus a UTC timeline, region chips, proof tags, and
+  a date check.
 
 Facts were verified against reporting from 20 November 2026 before
 drawing; see NEWS-RESEARCH.md in the bounty folder. The footer states
